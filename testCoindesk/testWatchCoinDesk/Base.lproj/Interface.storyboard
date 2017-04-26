@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hU0-U8-wSt">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="CvS-Fb-e94">
+            <objects>
+                <controller id="hU0-U8-wSt" customClass="InterfaceController" customModule="testWatchCoinDesk_Extension">
+                    <items>
+                        <table alignment="left" id="HCq-9t-KA5">
+                            <items>
+                                <tableRow identifier="Row" id="CgV-jx-bnX" customClass="TableRow" customModule="testWatchCoinDesk_Extension">
+                                    <group key="rootItem" width="1" height="76" alignment="left" id="tZP-K6-chO">
+                                        <items>
+                                            <label width="139" height="31" alignment="left" text="Label" textAlignment="center" id="Dna-T5-dkO"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.14947979149999999" green="0.685791015625" blue="0.1961963028" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="label" destination="Dna-T5-dkO" id="lei-cf-8aE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="HCq-9t-KA5" id="GZB-XQ-p0p"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="317.33333333333337" y="409.30769230769232"/>
+        </scene>
+    </scenes>
+</document>

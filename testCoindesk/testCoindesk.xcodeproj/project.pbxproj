@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390016B11EB0FDDD00460DF8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390016AF1EB0FDDD00460DF8 /* Interface.storyboard */; };
+		390016B31EB0FDDD00460DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390016B21EB0FDDD00460DF8 /* Assets.xcassets */; };
+		390016BA1EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 390016B91EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		390016C11EB0FDDD00460DF8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390016C01EB0FDDD00460DF8 /* InterfaceController.swift */; };
+		390016C91EB0FDDD00460DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390016C81EB0FDDD00460DF8 /* Assets.xcassets */; };
+		390016CD1EB0FDDD00460DF8 /* testWatchCoinDesk.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 390016AD1EB0FDDD00460DF8 /* testWatchCoinDesk.app */; };
+		390016D61EB0FEC000460DF8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7211EABB6E300C97AAF /* Parser.swift */; };
+		390016D71EB0FEC000460DF8 /* CurrentPriceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7271EACA3F300C97AAF /* CurrentPriceParser.swift */; };
+		390016D81EB0FEC000460DF8 /* TimeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB71F1EABAF4A00C97AAF /* TimeParser.swift */; };
+		390016D91EB0FEC000460DF8 /* BPIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7231EAC8F2F00C97AAF /* BPIParser.swift */; };
+		390016DA1EB0FEC000460DF8 /* CurrencyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7251EAC929B00C97AAF /* CurrencyParser.swift */; };
+		390016DB1EB0FEC000460DF8 /* HistoricalParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3AC7C1EAE6BC60036A95F /* HistoricalParser.swift */; };
+		390016DC1EB0FEC500460DF8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB71C1EABADDB00C97AAF /* DataManager.swift */; };
+		390016DD1EB0FECA00460DF8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7171EABAD2A00C97AAF /* Request.swift */; };
+		390016DE1EB0FECA00460DF8 /* CurrencyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7291EACBA7800C97AAF /* CurrencyRequest.swift */; };
+		390016DF1EB0FECA00460DF8 /* HistoricalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3AC7A1EAE60700036A95F /* HistoricalRequest.swift */; };
+		390016E01EB0FECE00460DF8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7131EABABC100C97AAF /* APIClient.swift */; };
+		390016E11EB0FECE00460DF8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7191EABAD5D00C97AAF /* Error.swift */; };
+		390016E21EB0FF1100460DF8 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3AC7F1EAE7DBB0036A95F /* DateHelper.swift */; };
+		390016EC1EB10B1100460DF8 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390016EB1EB10B1100460DF8 /* TableRow.swift */; };
 		394CB7011EABAB8100C97AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7001EABAB8100C97AAF /* AppDelegate.swift */; };
 		394CB7031EABAB8100C97AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CB7021EABAB8100C97AAF /* ViewController.swift */; };
 		394CB7061EABAB8100C97AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394CB7041EABAB8100C97AAF /* Main.storyboard */; };
@@ -31,7 +51,59 @@
 		39D9F5D31EAFCEDF00E6004B /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9F5D21EAFCEDF00E6004B /* TransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		390016BB1EB0FDDD00460DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394CB6F51EABAB8100C97AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390016B81EB0FDDD00460DF8;
+			remoteInfo = "testWatchCoinDesk Extension";
+		};
+		390016CB1EB0FDDD00460DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394CB6F51EABAB8100C97AAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390016AC1EB0FDDD00460DF8;
+			remoteInfo = testWatchCoinDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		390016D31EB0FDDD00460DF8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				390016BA1EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390016D51EB0FDDD00460DF8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				390016CD1EB0FDDD00460DF8 /* testWatchCoinDesk.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		390016AD1EB0FDDD00460DF8 /* testWatchCoinDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWatchCoinDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390016B01EB0FDDD00460DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		390016B21EB0FDDD00460DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390016B41EB0FDDD00460DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390016B91EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "testWatchCoinDesk Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390016BF1EB0FDDD00460DF8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		390016C01EB0FDDD00460DF8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		390016C81EB0FDDD00460DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390016CA1EB0FDDD00460DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390016EB1EB10B1100460DF8 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		394CB6FD1EABAB8100C97AAF /* testCoindesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCoindesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394CB7001EABAB8100C97AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		394CB7021EABAB8100C97AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +131,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		390016B61EB0FDDD00460DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		394CB6FA1EABAB8100C97AAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,12 +148,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		390016AE1EB0FDDD00460DF8 /* testWatchCoinDesk */ = {
+			isa = PBXGroup;
+			children = (
+				390016AF1EB0FDDD00460DF8 /* Interface.storyboard */,
+				390016B21EB0FDDD00460DF8 /* Assets.xcassets */,
+				390016B41EB0FDDD00460DF8 /* Info.plist */,
+			);
+			path = testWatchCoinDesk;
+			sourceTree = "<group>";
+		};
+		390016BD1EB0FDDD00460DF8 /* testWatchCoinDesk Extension */ = {
+			isa = PBXGroup;
+			children = (
+				390016C01EB0FDDD00460DF8 /* InterfaceController.swift */,
+				390016EB1EB10B1100460DF8 /* TableRow.swift */,
+				390016C81EB0FDDD00460DF8 /* Assets.xcassets */,
+				390016CA1EB0FDDD00460DF8 /* Info.plist */,
+				390016BE1EB0FDDD00460DF8 /* Supporting Files */,
+			);
+			path = "testWatchCoinDesk Extension";
+			sourceTree = "<group>";
+		};
+		390016BE1EB0FDDD00460DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				390016BF1EB0FDDD00460DF8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		394CB6F41EABAB8100C97AAF = {
 			isa = PBXGroup;
 			children = (
 				39D3AC7E1EAE7DB00036A95F /* Helper */,
 				394CB7121EABABA300C97AAF /* Networking */,
 				394CB6FF1EABAB8100C97AAF /* testCoindesk */,
+				390016AE1EB0FDDD00460DF8 /* testWatchCoinDesk */,
+				390016BD1EB0FDDD00460DF8 /* testWatchCoinDesk Extension */,
 				394CB6FE1EABAB8100C97AAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				394CB6FD1EABAB8100C97AAF /* testCoindesk.app */,
+				390016AD1EB0FDDD00460DF8 /* testWatchCoinDesk.app */,
+				390016B91EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,6 +279,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		390016AC1EB0FDDD00460DF8 /* testWatchCoinDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390016D41EB0FDDD00460DF8 /* Build configuration list for PBXNativeTarget "testWatchCoinDesk" */;
+			buildPhases = (
+				390016AB1EB0FDDD00460DF8 /* Resources */,
+				390016D31EB0FDDD00460DF8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390016BC1EB0FDDD00460DF8 /* PBXTargetDependency */,
+			);
+			name = testWatchCoinDesk;
+			productName = testWatchCoinDesk;
+			productReference = 390016AD1EB0FDDD00460DF8 /* testWatchCoinDesk.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		390016B81EB0FDDD00460DF8 /* testWatchCoinDesk Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390016D21EB0FDDD00460DF8 /* Build configuration list for PBXNativeTarget "testWatchCoinDesk Extension" */;
+			buildPhases = (
+				390016B51EB0FDDD00460DF8 /* Sources */,
+				390016B61EB0FDDD00460DF8 /* Frameworks */,
+				390016B71EB0FDDD00460DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "testWatchCoinDesk Extension";
+			productName = "testWatchCoinDesk Extension";
+			productReference = 390016B91EB0FDDD00460DF8 /* testWatchCoinDesk Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		394CB6FC1EABAB8100C97AAF /* testCoindesk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 394CB70F1EABAB8100C97AAF /* Build configuration list for PBXNativeTarget "testCoindesk" */;
@@ -173,10 +320,12 @@
 				394CB6F91EABAB8100C97AAF /* Sources */,
 				394CB6FA1EABAB8100C97AAF /* Frameworks */,
 				394CB6FB1EABAB8100C97AAF /* Resources */,
+				390016D51EB0FDDD00460DF8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				390016CC1EB0FDDD00460DF8 /* PBXTargetDependency */,
 			);
 			name = testCoindesk;
 			productName = testCoindesk;
@@ -193,6 +342,16 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Singularity;
 				TargetAttributes = {
+					390016AC1EB0FDDD00460DF8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7CSFZ8JM6F;
+						ProvisioningStyle = Automatic;
+					};
+					390016B81EB0FDDD00460DF8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7CSFZ8JM6F;
+						ProvisioningStyle = Automatic;
+					};
 					394CB6FC1EABAB8100C97AAF = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7CSFZ8JM6F;
@@ -214,11 +373,30 @@
 			projectRoot = "";
 			targets = (
 				394CB6FC1EABAB8100C97AAF /* testCoindesk */,
+				390016AC1EB0FDDD00460DF8 /* testWatchCoinDesk */,
+				390016B81EB0FDDD00460DF8 /* testWatchCoinDesk Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		390016AB1EB0FDDD00460DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390016B31EB0FDDD00460DF8 /* Assets.xcassets in Resources */,
+				390016B11EB0FDDD00460DF8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390016B71EB0FDDD00460DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390016C91EB0FDDD00460DF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		394CB6FB1EABAB8100C97AAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +411,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		390016B51EB0FDDD00460DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390016E11EB0FECE00460DF8 /* Error.swift in Sources */,
+				390016DD1EB0FECA00460DF8 /* Request.swift in Sources */,
+				390016D91EB0FEC000460DF8 /* BPIParser.swift in Sources */,
+				390016D71EB0FEC000460DF8 /* CurrentPriceParser.swift in Sources */,
+				390016DF1EB0FECA00460DF8 /* HistoricalRequest.swift in Sources */,
+				390016DB1EB0FEC000460DF8 /* HistoricalParser.swift in Sources */,
+				390016DA1EB0FEC000460DF8 /* CurrencyParser.swift in Sources */,
+				390016E21EB0FF1100460DF8 /* DateHelper.swift in Sources */,
+				390016E01EB0FECE00460DF8 /* APIClient.swift in Sources */,
+				390016EC1EB10B1100460DF8 /* TableRow.swift in Sources */,
+				390016D81EB0FEC000460DF8 /* TimeParser.swift in Sources */,
+				390016DE1EB0FECA00460DF8 /* CurrencyRequest.swift in Sources */,
+				390016D61EB0FEC000460DF8 /* Parser.swift in Sources */,
+				390016DC1EB0FEC500460DF8 /* DataManager.swift in Sources */,
+				390016C11EB0FDDD00460DF8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		394CB6F91EABAB8100C97AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,7 +460,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		390016BC1EB0FDDD00460DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390016B81EB0FDDD00460DF8 /* testWatchCoinDesk Extension */;
+			targetProxy = 390016BB1EB0FDDD00460DF8 /* PBXContainerItemProxy */;
+		};
+		390016CC1EB0FDDD00460DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390016AC1EB0FDDD00460DF8 /* testWatchCoinDesk */;
+			targetProxy = 390016CB1EB0FDDD00460DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		390016AF1EB0FDDD00460DF8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390016B01EB0FDDD00460DF8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		394CB7041EABAB8100C97AAF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +501,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		390016CE1EB0FDDD00460DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CSFZ8JM6F;
+				IBSC_MODULE = testWatchCoinDesk_Extension;
+				INFOPLIST_FILE = testWatchCoinDesk/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.testCoindesk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		390016CF1EB0FDDD00460DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CSFZ8JM6F;
+				IBSC_MODULE = testWatchCoinDesk_Extension;
+				INFOPLIST_FILE = testWatchCoinDesk/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.testCoindesk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		390016D01EB0FDDD00460DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7CSFZ8JM6F;
+				INFOPLIST_FILE = "testWatchCoinDesk Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.testCoindesk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		390016D11EB0FDDD00460DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7CSFZ8JM6F;
+				INFOPLIST_FILE = "testWatchCoinDesk Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.testCoindesk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 		394CB70D1EABAB8100C97AAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -406,6 +697,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		390016D21EB0FDDD00460DF8 /* Build configuration list for PBXNativeTarget "testWatchCoinDesk Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390016D01EB0FDDD00460DF8 /* Debug */,
+				390016D11EB0FDDD00460DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		390016D41EB0FDDD00460DF8 /* Build configuration list for PBXNativeTarget "testWatchCoinDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390016CE1EB0FDDD00460DF8 /* Debug */,
+				390016CF1EB0FDDD00460DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		394CB6F81EABAB8100C97AAF /* Build configuration list for PBXProject "testCoindesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
