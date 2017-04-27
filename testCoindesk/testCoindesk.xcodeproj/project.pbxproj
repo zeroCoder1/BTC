@@ -704,6 +704,7 @@
 				390016D11EB0FDDD00460DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		390016D41EB0FDDD00460DF8 /* Build configuration list for PBXNativeTarget "testWatchCoinDesk" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +713,7 @@
 				390016CF1EB0FDDD00460DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		394CB6F81EABAB8100C97AAF /* Build configuration list for PBXProject "testCoindesk" */ = {
 			isa = XCConfigurationList;
