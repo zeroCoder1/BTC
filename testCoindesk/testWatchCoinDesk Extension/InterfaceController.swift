@@ -52,7 +52,8 @@ class InterfaceController: WKInterfaceController {
         for i in 0 ..< self.dataSource.count {
             let object = dataSource[i];
             if let row = table.rowController(at: i) as? TableRow {
-                row.label.setText(object.key)
+                row.dateLabel.setText(object.key)
+                row.rateLabel.setText(String(object.value))
             }
         }
     }

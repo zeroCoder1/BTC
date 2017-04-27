@@ -17,14 +17,20 @@
                         <table alignment="left" id="HCq-9t-KA5">
                             <items>
                                 <tableRow identifier="Row" id="CgV-jx-bnX" customClass="TableRow" customModule="testWatchCoinDesk_Extension">
-                                    <group key="rootItem" width="1" height="76" alignment="left" id="tZP-K6-chO">
+                                    <group key="rootItem" width="1" height="48" alignment="left" id="tZP-K6-chO">
                                         <items>
-                                            <label width="139" height="31" alignment="left" text="Label" textAlignment="center" id="Dna-T5-dkO"/>
+                                            <label height="31" alignment="right" verticalAlignment="bottom" text="Label" textAlignment="center" id="Dna-T5-dkO">
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                            <label alignment="left" text="Label" textAlignment="left" id="FYs-7q-t0q">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                            </label>
                                         </items>
                                         <color key="backgroundColor" red="0.14947979149999999" green="0.685791015625" blue="0.1961963028" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </group>
                                     <connections>
-                                        <outlet property="label" destination="Dna-T5-dkO" id="lei-cf-8aE"/>
+                                        <outlet property="dateLabel" destination="Dna-T5-dkO" id="I0M-3o-vgc"/>
+                                        <outlet property="rateLabel" destination="FYs-7q-t0q" id="9Fm-wT-gbn"/>
                                     </connections>
                                 </tableRow>
                             </items>

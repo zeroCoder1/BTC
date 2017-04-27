@@ -11,5 +11,6 @@ import WatchKit
 
 class TableRow: NSObject {
 
-    @IBOutlet weak var label: WKInterfaceLabel!
+    @IBOutlet weak var dateLabel: WKInterfaceLabel!
+    @IBOutlet var rateLabel: WKInterfaceLabel!
 }
